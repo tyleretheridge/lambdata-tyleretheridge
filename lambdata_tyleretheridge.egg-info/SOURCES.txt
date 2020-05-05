@@ -1,0 +1,10 @@
+README.md
+setup.py
+lambdata_tyleretheridge.egg-info/PKG-INFO
+lambdata_tyleretheridge.egg-info/SOURCES.txt
+lambdata_tyleretheridge.egg-info/dependency_links.txt
+lambdata_tyleretheridge.egg-info/top_level.txt
+my_lambdata/__init__.py
+my_lambdata/func.py
+my_lambdata/my_mod.py
+my_lambdata/my_script.py

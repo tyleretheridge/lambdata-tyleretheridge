@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: lambdata-tyleretheridge
+Version: 0.1
+Summary: A short description
+Home-page: https://github.com/YOUR_USERNAME/YOUR_REPO_NAME
+Author: Tyler Etheridge
+Author-email: tylerjetheridge98@gmail.com
+License: UNKNOWN
+Description: # lambdata-tyleretheridge
+        
+        ## Installation
+        
+        Fork this repo, then download your own copy of it. Then navigate into this directory from the command line. 
+        
+        Then activate the virtual environment:
+        
+        
+        ```sh
+        pipenv install
+        ```
+        ## Usage
+        
+        TODO
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
