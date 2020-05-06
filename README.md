@@ -1,15 +1,10 @@
 # lambdata-tyleretheridge
 
 ## Installation
-
-Fork this repo, then download your own copy of it. Then navigate into this directory from the command line. 
-
-Then activate the virtual environment:
-
-
 ```sh
-pipenv install
+pip install -i https://test.pypi.org/simple/ lambdata-tyleretheridge
 ```
 ## Usage
-
-TODO
+Use 
+```from my_lambdata.func import```
+to import these functions
