@@ -4,15 +4,9 @@ from pandas import DataFrame
 
 class WrangledFrame(DataFrame):
     """
-    Wrangler takes a dataframe and manipulates it.
+    A custom pandas.DataFrame with a column called "abbrev"
+    Example: WrangledFrame({"abbrev": ["CA", "CO", "CT", "DC", "TX"]})
     """
-
-    def __init__(self, my_df):
-        """
-        Param: my_df a pandas.DataFrame with a column called "abbrev"
-        Example: WrangledFrame({"abbrev": ["CA", "CO", "CT", "DC", "TX"]})
-        """
-        self.df = my_df
 
     def add_state_names(self):
         """
@@ -26,7 +20,7 @@ class WrangledFrame(DataFrame):
         self["name"] = self["abbrev"].map(names_map)
 
     def inspect_columns(self):
-        print(self.df.columns)
+        print(self.columns)
 
 
 if __name__ == "__main__":
